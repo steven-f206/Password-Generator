@@ -44,3 +44,18 @@ h2 {
     display: inline-block;
 
 }
+
+@media screen and (max-width: 991px) {
+    .btn {
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .result-container {
+        display: block;
+        width: auto;
+        float: none;
+    }
+}
