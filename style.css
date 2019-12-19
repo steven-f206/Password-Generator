@@ -1,0 +1,20 @@
+header {
+    margin-top: 100px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.bg-white {
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.btn {
+    width: 200px;
+}
+
+.one {
+    background-color: #c40000;
+}
