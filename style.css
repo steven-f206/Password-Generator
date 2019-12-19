@@ -18,3 +18,29 @@ h2 {
 .one {
     background-color: #c40000;
 }
+
+.result-container {
+    border-style: dashed;
+    border-color: darkgray;
+    height: 215px;
+	width: 100%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.result-container #result {
+    word-wrap: break-word;
+	max-width: calc(100% - 40px);
+}
+
+#result {
+    text-align: center;
+    display: inline-block;
+
+}
